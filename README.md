@@ -1,2 +1,2 @@
 # ontario-residential-centers
-Reworked a static business website to improve frontend structure, customer flow, and clarity of service offering using custom HTML, CSS, and JavaScript.
+This project involved reworking a static website for a local business, originally built using Webflow, by recreating it from scratch using custom HTML, CSS, and JavaScript. The objective was to improve how information was presented—ensuring stronger cohesion between sections, clearer service descriptions, and a more professional, consistent delivery of content. The result is a cleaner and more aligned web presence that better reflects the business’s purpose and values.
