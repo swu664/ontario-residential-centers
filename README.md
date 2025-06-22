@@ -14,6 +14,7 @@ The goal was to improve how information is structured and presented across the o
 The result is a responsive, accessible, and better-organized informational website that more accurately reflects the organization’s professionalism, values, and offerings.
 
 ## Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f6543864-6614-4427-a133-c3a68bc00e26/deploy-status)](https://app.netlify.com/projects/ontario-residential-centers/deploys)
 
 Deployment is currently pending final approval and is planned via Netlify (https://netlify.com), using GitHub-based auto-deploy (CI/CD). This setup will allow any future changes to be made quickly and reliably by simply pushing updates to the repository.
 
@@ -35,20 +36,20 @@ Once approved, the site will be publicly hosted under a custom domain to consoli
 ## Directory Structure
 
 📁 /assets
-├── ...
+- ...
 📁 /css
-├── about-us.css
-├── contact-us.css
-├── homepage.css
-├── program-services.css
-└── style.css
+- about-us.css
+- contact-us.css
+- homepage.css
+- program-services.css
+-  style.css
 📁 /fonts
-├── GildaDisplay-Regular.ttf
-├── Roboto-Light.ttf
-└── contact-us.css
+- GildaDisplay-Regular.ttf
+- Roboto-Light.ttf
+- Roboto-Regular.ttf
 📁 /js
-├── homepage.js
-└── index.js
+- homepage.js
+- index.js
 📄 about-us.html
 📄 contact-us.html
 📄 index.html
