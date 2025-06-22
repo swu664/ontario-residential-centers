@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ontario Residential Centers</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script src="js/index.js" defer></script>
+    <script src="js/homepage.js" defer></script>
+</head>
+<body>
+    <div id="logo-container"></div>
+    <div id="nav-container"></div>
+    <div id="video-modal">
+        <iframe id="video-iframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <button id="close-btn" type="button">X</button>
+    </div>
+    <div id="intro">
+        <div class="column">
+            <h3 class="logo-full">Ontario Residential Centers:</h3>
+            <h1>Changing the Lives of Individuals with Developmental Disabilities</h1>
+            <p>Our residential centers are committed to supporting individuals with developmental disabilities across <strong>three different locations.</strong> 
+                Our caring staff, tailored programs & services, and comfortable environments work together to create <strong>meaningful, person-centered care</strong>.
+            </p>
+        </div>
+        <div id="video-container" class="column">
+            <img id="thumbnail" src="/assets/thumbnail.png" alt="Springwater Residential Center">
+            <button id="play-btn" type="button">▶</button>
+        </div>
+    </div>
+    <div id="site-overview">
+        <section>
+            <h3>About Us</h3>
+            <p>Our team is made up of trained, compassionate professionals who are committed to evidence-based, person-focused support.
+                <a href="about-us.html" class="button">Learn More</a>
+            </p>
+        </section>
+        <section>
+            <h3>Programs & Services</h3>
+            <p>We offer individualized programs and supportive services designed to meet the unique needs of each individual that enters our doors.
+            <a href="programs-services.html" class="button">See Programs</a></p>
+        </section>
+        <section>
+            <h3>Contact Us</h3>
+            <p>Reach out to us at any of our three locations — Springwater, Muskoka, and Georgian Bay. We're happy to answer questions or arrange a tour.
+            <a href="contact-us.html" class="button">Contact Us</a></p>
+        </section>
+    </div>
+    <div id="gallery">
+        <h2>Moments That Matter</h2>
+        <p>A look into the daily lives of our clients — their smiles, their stories, and the community we're proud to be part of.</p>
+        <img id="main-image" src="assets/1.jpg" alt="Main Preview">
+        <div class="thumbnails">
+          <img src="assets/1.jpg" onclick="changeImage(this)">
+          <img src="assets/2.jpg" onclick="changeImage(this)">
+          <img src="assets/3.jpg" onclick="changeImage(this)">
+          <img src="assets/4.jpg" onclick="changeImage(this)">
+          <img src="assets/5.jpg" onclick="changeImage(this)">
+          <img src="assets/6.jpg" onclick="changeImage(this)">
+          <img src="assets/7.jpg" onclick="changeImage(this)">
+          <img src="assets/8.jpg" onclick="changeImage(this)">
+          <img src="assets/9.jpg" onclick="changeImage(this)">
+          <img src="assets/10.jpg" onclick="changeImage(this)">
+          <img src="assets/11.jpg" onclick="changeImage(this)">
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
