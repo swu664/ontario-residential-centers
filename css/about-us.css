@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px;
+    background: #c0ccdb;
+}
+
+h2 {
+    margin: 0;
+}
+
+section {
+    margin: 40px;
+    padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#our-team li {
+    margin: 20px 0;
+
+}
+
+#approach {
+    border: 2px solid #38404e;
+    padding: 20px;
+}
+
+#approach .column {
+    float: left;
+    width: 33%;
+}
+
+#approach .column h3, 
+#approach .column p {
+    width: 80%;
+    margin: 40px auto;
+}
+
+#beliefs-values .column {
+    float: left;
+    width: 50%;
+}
+
+#beliefs-values img {
+    width: 85%;
+    display: block;
+    margin: 40px auto;
+}
+
+@media screen and (max-width: 947px) {
+    #approach .column, #beliefs-values .column {
+        width: 100%;
+    }
+}
