@@ -35,26 +35,31 @@ Once approved, the site will be publicly hosted under a custom domain to consoli
 
 ## Directory Structure
 
+```
 📁 /assets
-- ...
+
 📁 /css
-- about-us.css
-- contact-us.css
-- homepage.css
-- program-services.css
--  style.css
+├── about-us.css
+├── contact-us.css
+├── homepage.css
+├── programs-services.css
+└── style.css
+
 📁 /fonts
-- GildaDisplay-Regular.ttf
-- Roboto-Light.ttf
-- Roboto-Regular.ttf
+├── GildaDisplay-Regular.ttf
+├── Roboto-Light.ttf
+└── Roboto-Regular.ttf
+
 📁 /js
-- homepage.js
-- index.js
+├── homepage.js
+└── index.js
+
 📄 about-us.html
 📄 contact-us.html
 📄 index.html
 📄 nav-bar.html
 📄 programs-services.html
+```
 
 ## Status
 ✅ Rebuild complete  
